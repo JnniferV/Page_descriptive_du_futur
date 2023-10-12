@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+body {
+    color: rgb(56, 56, 56);
+    font-family: 'Martel', serif;
+    font-size: 16px;
+    line-height: 35px;
+  }
+h1  {
+    font-size:50px;
+    font-weight: 900;
+  }
+h2  {
+    font-size: 30px;
+  }
+a   {
+    color: rgba(9, 2, 86, 0.8);
+  }
+a:hover {
+    color: rgb(157, 40, 230);
+  }
+a:visited {
+    color: rgb(180, 60, 180);
+  }
+#main {
+  background: rgba(21, 23, 140, 0.2);
+  text-align: center;
+  border-radius: 2%;
+}
+#title {
+  margin-top: 18px;
+  padding-top: 40px;
+}
+#img-div {
+  background-color: rgb(248, 248, 255);
+  display: block;
+  max-width: 98%;
+  margin: auto;
+  border-radius: 1%;
+}
+#image {
+  display: block;
+  max-width: 100%;
+  width: 50%;
+  height: auto;
+  margin: auto auto 10px auto;
+  padding-top: 30px;
+}
+#img-caption {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+#tribute-info  {
+  max-width: 650px;
+  margin: 50px auto;
+}
+ul {
+  text-align: left;
+  line-height: normal;
+  list-style-type: square;
+}
+li {
+  margin: 15px;
+}
+blockquote {
+  line-height: normal;
+  margin-top: 60px;
+}
+footer {
+  margin-top: 75px;
+}
+
+/* resizing for tablet and mobile */
+@media (max-width: 630px) {
+  h1 {
+    line-height: 50px;
+    font-size:40px;
+  }
+  h2  {
+    font-size: 22px;
+  }
+}
+@media (max-width: 730px) {
+  #image {
+    max-width: 100%;
+    width: 60%;
+  }
+  #main {
+  border-radius: 0%;
+  }
+}
